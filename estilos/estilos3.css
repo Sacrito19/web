@@ -1,0 +1,111 @@
+body {
+
+    background: linear-gradient(90deg,rgba(79, 255, 94, 0.322) 0%, rgba(141, 255, 137, 0.281) 50%, rgba(134, 255, 97, 0.205) 100%);
+
+}
+
+
+    @keyframes floating{
+        50%{
+            transform: translateY(-30px);
+        }
+    }
+
+    @keyframes floating2{
+        50%{
+            transform: translateX(-30px);
+        }
+        50%{
+            transform: translateX(30px);
+        }
+
+    }
+
+    .img1 {
+        position:absolute;
+        width:180px;
+        left:7%;
+        top:5%;
+        opacity:0.2;
+        animation: floating 3s infinite ease-in-out;
+    }
+
+    .img2 {
+        position:absolute;
+        width:180px;
+        left:15%;
+        top:60%;
+        opacity:0.2;
+        animation: floating 4s infinite ease-in-out;
+    }
+    
+    .img3 {
+        position:absolute;
+        width:180px;
+        left:75%;
+        top:5%;
+        opacity:0.2;
+        animation: floating 2s infinite ease-in-out;
+    }
+    
+    .img4 {
+        position:absolute;
+        width:180px;
+        left:85%;
+        top:60%;
+        opacity:0.2;
+        animation: floating 2.5s infinite ease-in-out;
+    }
+
+    .imgfondo2 {
+        width:1900px;
+        height:940px;
+        opacity: 0.2;
+    }
+
+    .imgcarta {
+        position: absolute;
+        top:20%;
+        width:450px;
+        left:37%;
+        animation: floating 2.5s infinite ease-in-out;
+    }
+
+    .texto3 {
+        position: absolute;
+        top:19%;
+        left:39%;
+        width:350px;
+        animation: floating 2.5s infinite ease-in-out;
+    }
+
+    .imgtqm {
+        position: absolute;
+        width:250px;
+        left:42%;
+        top:47%;
+        animation: floating 2.5s infinite ease-in-out;
+    }
+
+    .imgcreeper {
+        position: absolute;
+        width:230px;
+        top:3%;
+        left:50%;
+        animation: floating 2.5s infinite ease-in-out;
+        rotate: 25deg;
+    }
+
+    .imgflecha2 {
+        position: absolute;
+        width:80px;
+        top:68%;
+        left:55%;
+        animation: floating 2.5s infinite ease-in-out;
+        opacity:0.7;
+    }
+
+    .imgflecha2:hover {
+                transform: scale(0.9);
+        animation: floating 2.5s infinite ease-in-out;
+    }
